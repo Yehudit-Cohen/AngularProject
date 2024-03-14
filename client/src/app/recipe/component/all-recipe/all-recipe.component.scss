@@ -1,0 +1,42 @@
+.a1 {
+    // border: 1px palevioletred solid;
+    width: 30%;
+    margin: 2vh;
+}
+
+#flex {
+    // display: flex;
+    // flex-direction: row;
+    // justify-items: normal;
+    // justify-content: space-between;
+    display: 'flex';
+    flex-wrap: 'wrap';
+    gap: '20px';
+    justify-content: 'space-evenly';
+    flex-direction:center;
+
+
+}
+// style="display: flex; flex-wrap: wrap; gap: 20vh; justify-content: space-evenly; flex-direction: row;"
+.all-recipe-container {
+    margin: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container input,
+  .filter-container select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

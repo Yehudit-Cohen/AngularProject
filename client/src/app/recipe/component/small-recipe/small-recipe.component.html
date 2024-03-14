@@ -1,0 +1,27 @@
+<!-- {{recipeChild?.name}} -->
+
+<!-- <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{recipeChild?.name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{ recipeChild?.imgRouting }}" alt="Photo of {{ recipeChild?.name }}">
+
+    <mat-card-content>
+
+      <h3>Duration of preparation: {{recipeChild?.minutes}}</h3>
+      <h3>Difficulty Level: {{recipeChild?.difficultyLevel}}</h3>
+
+    </mat-card-content>
+
+  </mat-card>
+  -->
+  <div class="card" style="width: 18rem;" (click)="recipeDetails()">
+    <img src="{{ recipeChild.imgRouting }}" alt="{{ recipeChild.name }}" onerror="this.src='https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp'" class="card-img-top">
+    <div class="card-body">
+      <h2 class="card-title">{{recipeChild.name}}</h2>
+      <p class="card-text">Duration of preparation: {{recipeChild.minutes}}</p>
+      <p class="card-text">Difficulty Level: {{recipeChild.difficultyLevel}}</p>
+    </div>
+  </div>
+  
